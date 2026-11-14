@@ -50,24 +50,29 @@ at the throat at thumbnail scale (the Post 4 regeneration already moved the fist
 reading it*, so that run's Post 5 findings were contaminated and partly unusable. Never change the
 inputs under a running review.
 
-## WHERE IT ACTUALLY STANDS (read this first)
+## SHIPPED 2026-11-14 00:49 ET — this job is DONE
 
-All three illustrations have been regenerated with correct figures, composed and rendered.
-**All three cuts were sent to Vance and are waiting on his yes.** Nothing has been pushed to
-the site repo and no Metricool post has been touched since Post 6 went to `draft:true`.
+Vance approved all three ("Go, Brother"). Pushed as commit `98c7117` and swapped into
+Metricool. Nothing is outstanding.
 
-| Post | Figure | Cut | Sent |
-|---|---|---|---|
-| 4 — The War Within | Levantine man, hand braced at the jaw | `WL-Post04-The-War-Within-Reel-v2.mp4` | yes, 11-13 |
-| 5 — Cost of the Covenant | Black African working forearm on the rope | `WL-Post05-Cost-of-the-Covenant-Reel-v2.mp4` | yes, 11-13 |
-| 6 — The Furnace | Judean man in the fire | `WL-Post06-The-Furnace-Reel-v3.mp4` | yes, 11-13 |
+| Post | Figure | Cut (live) | Fires | Metricool id | uuid |
+|---|---|---|---|---|---|
+| 4 — The War Within | Judean man, fist at the jaw | `WL-Post04-The-War-Within-Reel-v3.mp4` | Mon 11/16 10:00 | 427756554 | -3543980373235055961 |
+| 5 — Cost of the Covenant | Black African hand on the tzitzit | `WL-Post05-Cost-of-the-Covenant-Reel-v4.mp4` | Wed 11/18 10:00 | 427756642 | 4357966642178835969 |
+| 6 — The Furnace | Judean man in the fire | `WL-Post06-The-Furnace-Reel-v4.mp4` | Fri 11/20 10:00 | 427756714 | -895706748583525836 |
 
-The set now carries two ethnicities deliberately, per his correction. Scratchpad holding all
-of it: `/private/tmp/claude-501/-Users-buddyb-Library-CloudStorage-GoogleDrive-vance-batts-gmail-com/7eeb7132-de34-4ba0-93ad-301c95a1a3ef/scratchpad/reel6/`
-(`art4.png`, `art5.png`, `art6.png`, the three MP4s, `war_variants.png`,
-`covenant_variants.png`, `furnace_variants.png`, and the three `score_*.m4a`).
+All three: `draft:false`, `isAiGenerated:true`, real `mediaAltText`, captions verbatim and
+untouched. Served from `https://vancebatts-ui.github.io/the-way-leader/media/` — all 200, and
+each one's sha256 verified against both the local render and Metricool's stored copy.
+`WL-Post06-The-Furnace-Reel-v2.mp4` (the European figure) was deleted and now 404s.
 
-**On his yes: push, then Metricool — see "What to do once the art is in hand" below, steps 4–6.**
+Final measurements on the shipped set: horizontal-band score 0.0 / −9.6 / 0.0 (the rejected
+Post 5 scored −70.5); lowest type ink y=1475 on all three against a 1499 limit; thumbnail value
+spread 110 / 130 / 92 (Post 4 was 69 before its own grade).
+
+**Still open, and it is his call, not ours:** Post 5's quote renders at 65pt, not the configured
+76pt — see the review section above. He was told, and shipping at 65pt was the decision, because
+the alternative was editing his sentence.
 
 ## Getting art out of Canva when the MCP connector is gone
 
